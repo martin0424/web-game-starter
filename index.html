@@ -2,13 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App<title>
-    <link rel="stylesheet" href="./styles/style.css" >
+    <title>Runner</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="module" src="./js/main.js"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
+    <div class="app" data-app>
+      <div class="score" data-score>0</div>
+      <div class="start-screen" data-start-screen>Press Space to Begin</div>
+      <img
+        src="https://c4.wallpaperflare.com/wallpaper/232/230/447/pixel-art-landscape-sunset-16-bit-wallpaper-preview.jpg"
+        alt="Pixel-Landscape"
+        class="ground"
+        data-ground
+      />
+      <img
+        src="https://c4.wallpaperflare.com/wallpaper/232/230/447/pixel-art-landscape-sunset-16-bit-wallpaper-preview.jpg"
+        alt="Pixel-Landscape"
+        class="ground"
+        data-ground
+      />
+      <img
+        src="./images/character-standing-removebg-preview.png"
+        alt="standing-character"
+        class="runner"
+        data-runner
+      />
+      <!-- <img src="./images/character-walk-1-removebg-preview.png" alt="walking-character" class="walk-1">
+      <img src="./images/character-walk-2-removebg-preview.png" alt="walking-character" class="walk-2">
+      <img src="./images/pixel-palmtree2-removebg-preview.png" alt="palm-tree" class="tree"> -->
+    </div>
   </body>
 </html>
